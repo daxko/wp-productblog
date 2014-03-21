@@ -20,7 +20,7 @@ function add_active_class($classes = array(), $menu_item) {
   global $post;
 
   if((is_page('daxko-community') && $menu_item->post_title === "community")
-    || ((is_single() || is_archive() || is_home()) && $menu_item->post_title === "blog")
+    || ((is_single() || is_archive() || is_home()) && $menu_item->post_title === "product blog")
     || (is_page($menu_item->object_id) || $post->post_parent == $menu_item->object_id)) {
     $classes[] = 'active';
   } else {
