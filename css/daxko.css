@@ -52,7 +52,7 @@ body {
 .navbar .nav > li {
   display: inline-block;
   list-style-type: none;
-  float: right;
+  float: left;
 }
 
 .navbar .nav > li > a {
